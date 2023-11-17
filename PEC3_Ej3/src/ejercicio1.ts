@@ -8,7 +8,7 @@ function printArray(array:Array<number>):void{
 }
 
 let array:number[]=[2,3,4];
-console.log(/***/); //2
+console.log(array.shift()); //2
 printArray(array); // 3,4
 /***/
 printArray(array); // 3,4,5

@@ -2,11 +2,30 @@
   "compilerOptions": {
     /* Basic Options */
     "target": "es2015", 
+    //"target": Especifica la versió d'ECMAScript (versió de JavaScript) a la qual el codi TypeScript serà compilat. En aquest cas, "es2015" (també conegut com ES6) és la versió objectiu. 
+    //Això significa que el compilador de TypeScript generarà codi compatible amb els estàndards ES6.
+
     "module": "commonjs", 
+    // "module": Determina el sistema de mòduls a utilitzar. "commonjs" és el sistema de mòduls utilitzat principalment en aplicacions Node.js. 
+    // Aquesta opció indica de quina manera s'importen i exporten els mòduls en el codi TypeScript.
+
     "outDir": "./dist",   
+    // "outDir": Especifica la carpeta on es guardaran els fitxers .js compilats.
+    // En aquest cas, tots els fitxers compilats es desaran en una carpeta anomenada "dist" al mateix nivell que la carpeta "src".
+
     "rootDir": "./src", 
+    // "rootDir": Indica la carpeta on es troben els fitxers font de TypeScript.
+    // Això ajuda al compilador a organitzar la sortida (fitxers .js) en l'estructura de directoris especificada en "outDir". Aquí, s'indica que la carpeta font és "src".
+
     "strict": true,
+    // "strict": Quan està activat, habilita un conjunt estricte d'opcions de tipat que fan que la compilació sigui més restrictiva.     
+
     "incremental": true,
+    // "incremental": Quan està activat, permet al compilador guardar informació sobre l'estat de la compilació anterior per accelerar les compilacions subseqüents.
+
     "tsBuildInfoFile": "./buildcache",
+    // "tsBuildInfoFile": Especifica el camí on es guarda el fitxer d'informació de la compilació quan "incremental" està activat. Aquest fitxer conté dades que el v compilador utilitza per accelerar les compilacions futures.
+    // En aquest cas, s'emmagatzema a la carpeta "buildcache".
+
   }
 }
