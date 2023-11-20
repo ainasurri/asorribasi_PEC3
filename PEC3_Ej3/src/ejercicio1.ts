@@ -3,9 +3,7 @@
 
 
 function printArray(array:Array<number>):void{
-	array.forEach(element => {
-              console.log(element);
-          });
+    console.log(array.join(", "));
 }
 
 let array:number[]=[2,3,4];

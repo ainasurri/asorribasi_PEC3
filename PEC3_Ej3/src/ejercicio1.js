@@ -1,9 +1,7 @@
 //Sustituye /***/ por las instrucciones adeacuadas que cumplan las operaciones 
 //y salidas indicadas en los comentarios.
 function printArray(array) {
-    array.forEach(function (element) {
-        console.log(element);
-    });
+    console.log(array.join(", "));
 }
 var array = [2, 3, 4];
 console.log(array.shift()); //2
