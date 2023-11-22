@@ -1,2 +1,5 @@
-# asorribasi_PEC3
- Entrega 3 de Frontend
+asorribasi
+
+Aina Sorribas i Carré
+
+Entrega 3 de Frontend

@@ -1,4 +1,5 @@
-class Todo {
+/** * @class Model * * Manages the data of the application. */
+export class Todo {
     id: string;
     text: string;
     complete: boolean;
